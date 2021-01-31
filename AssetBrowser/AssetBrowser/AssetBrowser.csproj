@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net452</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\CheckMark_16.png" />
+    <None Remove="resources\Commit_24.png" />
+    <None Remove="resources\File_10.png" />
+    <None Remove="resources\File_48.png" />
+    <None Remove="resources\Folder_10.png" />
+    <None Remove="resources\Material01_16.png" />
+    <None Remove="resources\Redo_24.png" />
+    <None Remove="resources\Refresh_24.png" />
+    <None Remove="resources\Split_24.png" />
+    <None Remove="resources\Undo_24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LivetCask" Version="3.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\CheckMark_16.png" />
+    <Resource Include="resources\Commit_24.png" />
+    <Resource Include="resources\File_10.png" />
+    <Resource Include="resources\File_48.png" />
+    <Resource Include="resources\Folder_10.png" />
+    <Resource Include="resources\Material01_16.png" />
+    <Resource Include="resources\Redo_24.png" />
+    <Resource Include="resources\Refresh_24.png" />
+    <Resource Include="resources\Split_24.png" />
+    <Resource Include="resources\Undo_24.png" />
+  </ItemGroup>
+
+</Project>

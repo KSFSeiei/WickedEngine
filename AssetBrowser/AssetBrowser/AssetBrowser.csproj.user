@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Models\BaseItemModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Models\FolderItemModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Models\RootItemModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\AssetItemViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\AssetListViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\FolderTreeViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\TreeAssetItemViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\TreeBaseItemViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\TreeFolderItemViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AssetBrowserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\FolderTreeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\AssetBrowserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FolderTreeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

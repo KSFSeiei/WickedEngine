@@ -1,0 +1,515 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "LivetCask/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Behaviors": "3.2.1",
+          "LivetCask.Collections": "3.2.1",
+          "LivetCask.Converters": "3.2.1",
+          "LivetCask.EventListeners": "3.2.1",
+          "LivetCask.Messaging": "3.2.1",
+          "LivetCask.Mvvm": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.dll": {}
+        }
+      },
+      "LivetCask.Behaviors/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Core": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Behaviors.dll": {}
+        }
+      },
+      "LivetCask.Collections/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.EventListeners": "3.2.1"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Collections.dll": {}
+        }
+      },
+      "LivetCask.Converters/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Converters.dll": {}
+        }
+      },
+      "LivetCask.Core/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Livet.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Core.dll": {}
+        }
+      },
+      "LivetCask.EventListeners/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Core": "3.2.1"
+        },
+        "compile": {
+          "lib/net452/Livet.EventListeners.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.EventListeners.dll": {}
+        }
+      },
+      "LivetCask.Messaging/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Core": "3.2.1",
+          "LivetCask.EventListeners": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Messaging.dll": {}
+        }
+      },
+      "LivetCask.Mvvm/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Messaging": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Mvvm.dll": {}
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.XML",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win7-x86": {
+      "LivetCask/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Behaviors": "3.2.1",
+          "LivetCask.Collections": "3.2.1",
+          "LivetCask.Converters": "3.2.1",
+          "LivetCask.EventListeners": "3.2.1",
+          "LivetCask.Messaging": "3.2.1",
+          "LivetCask.Mvvm": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.dll": {}
+        }
+      },
+      "LivetCask.Behaviors/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Core": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Behaviors.dll": {}
+        }
+      },
+      "LivetCask.Collections/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.EventListeners": "3.2.1"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Collections.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Collections.dll": {}
+        }
+      },
+      "LivetCask.Converters/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Converters.dll": {}
+        }
+      },
+      "LivetCask.Core/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Livet.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Core.dll": {}
+        }
+      },
+      "LivetCask.EventListeners/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Core": "3.2.1"
+        },
+        "compile": {
+          "lib/net452/Livet.EventListeners.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.EventListeners.dll": {}
+        }
+      },
+      "LivetCask.Messaging/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Core": "3.2.1",
+          "LivetCask.EventListeners": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Messaging.dll": {}
+        }
+      },
+      "LivetCask.Mvvm/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "LivetCask.Messaging": "3.2.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.3"
+        },
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net452/Livet.Mvvm.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Livet.Mvvm.dll": {}
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.XML",
+          "System.Xaml",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Xaml.Behaviors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LivetCask/3.2.1": {
+      "sha512": "637I6QSNX70h+xgC94SsINzIbdF6xvjiDiHNmjDv3fc9v/+mzCU8LNNhVyqey97g5OZdaEsz6k+tVZWBHGysGA==",
+      "type": "package",
+      "path": "livetcask/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.dll",
+        "lib/netcoreapp3.0/Livet.dll",
+        "license-en.txt",
+        "livetcask.3.2.1.nupkg.sha512",
+        "livetcask.nuspec"
+      ]
+    },
+    "LivetCask.Behaviors/3.2.1": {
+      "sha512": "SVL7nZKx5tTrqmbXPAAyZebn9XPJCvD9cOpVL5bJWbJrDM8GiUagvaysw+9EImcgO618HKv8ZZNfMne//7/cIA==",
+      "type": "package",
+      "path": "livetcask.behaviors/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.Behaviors.dll",
+        "lib/netcoreapp3.0/Livet.Behaviors.dll",
+        "license-en.txt",
+        "livetcask.behaviors.3.2.1.nupkg.sha512",
+        "livetcask.behaviors.nuspec"
+      ]
+    },
+    "LivetCask.Collections/3.2.1": {
+      "sha512": "RDGpFNM1+AxT1Yqj7UYOWeeeObywYmdGMg5nTrlBQAG9UeJyR8E28Kn6tnWJK13BG2HpFRjhWussV0AcIxwpRA==",
+      "type": "package",
+      "path": "livetcask.collections/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.Collections.dll",
+        "lib/netcoreapp3.0/Livet.Collections.dll",
+        "license-en.txt",
+        "livetcask.collections.3.2.1.nupkg.sha512",
+        "livetcask.collections.nuspec"
+      ]
+    },
+    "LivetCask.Converters/3.2.1": {
+      "sha512": "t6GH7q3upIK1BbFO+CYBtEpyot/xidesJH43q3G0/dpCrBFkG0JhmmW9rLkmvkVgor3Rfyo/0VQWY+oQcvhDvA==",
+      "type": "package",
+      "path": "livetcask.converters/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.Converters.dll",
+        "lib/netcoreapp3.0/Livet.Converters.dll",
+        "license-en.txt",
+        "livetcask.converters.3.2.1.nupkg.sha512",
+        "livetcask.converters.nuspec"
+      ]
+    },
+    "LivetCask.Core/3.2.1": {
+      "sha512": "I7jTZhk6opnGP/inZp74wVZc8UmrehZeelRsWM9H6gi+hlFRE/jD2uuNBcVgnaYSJytPcnAlzyWfnjfjyS7Kwg==",
+      "type": "package",
+      "path": "livetcask.core/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.Core.dll",
+        "lib/netstandard2.0/Livet.Core.dll",
+        "license-en.txt",
+        "livetcask.core.3.2.1.nupkg.sha512",
+        "livetcask.core.nuspec"
+      ]
+    },
+    "LivetCask.EventListeners/3.2.1": {
+      "sha512": "QMo3zCJIFDbRoX60mwddlaOKiUVjUYJNuNVa+QMZ1KPjTjl8MlMVIfh+XFIfBDIfPnYlhCOWDnJZyxaoRyj4Qg==",
+      "type": "package",
+      "path": "livetcask.eventlisteners/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.EventListeners.dll",
+        "lib/netstandard2.0/Livet.EventListeners.dll",
+        "license-en.txt",
+        "livetcask.eventlisteners.3.2.1.nupkg.sha512",
+        "livetcask.eventlisteners.nuspec"
+      ]
+    },
+    "LivetCask.Messaging/3.2.1": {
+      "sha512": "KffLv7InZmK78biDN7AdmbdPr6DBazoJxWItsmjr115O2V6smlFeXQansiztghzwWyMRQipDm6HYuLQ82RADGA==",
+      "type": "package",
+      "path": "livetcask.messaging/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.Messaging.dll",
+        "lib/netcoreapp3.0/Livet.Messaging.dll",
+        "license-en.txt",
+        "livetcask.messaging.3.2.1.nupkg.sha512",
+        "livetcask.messaging.nuspec"
+      ]
+    },
+    "LivetCask.Mvvm/3.2.1": {
+      "sha512": "4xDOHQSR2/D9ZC9ujCAgyRrpoJ0bDwu9HhlfaejnbsrSplA3Xaji51B2D8qyEv9k/S+FhMM6vf5MxCOIUg8fMg==",
+      "type": "package",
+      "path": "livetcask.mvvm/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Livet.Mvvm.dll",
+        "lib/netcoreapp3.0/Livet.Mvvm.dll",
+        "license-en.txt",
+        "livetcask.mvvm.3.2.1.nupkg.sha512",
+        "livetcask.mvvm.nuspec"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.3": {
+      "sha512": "Nj5tRPkKQpIFg7HcXzV1P/1CLk1NtkoJLE0IMKCHZfKMiBWdy6TssdOUT2OHw8L4eKP65lG+OElNR3xdaeW+gQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.3.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "LivetCask >= 3.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SenichiKaetsu\\Desktop\\Tool\\AssetBrowser\\AssetBrowser.csproj",
+      "projectName": "AssetBrowser",
+      "projectPath": "C:\\Users\\SenichiKaetsu\\Desktop\\Tool\\AssetBrowser\\AssetBrowser.csproj",
+      "packagesPath": "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SenichiKaetsu\\Desktop\\Tool\\AssetBrowser\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\SenichiKaetsu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\SenichiKaetsu\\Downloads": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "LivetCask": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

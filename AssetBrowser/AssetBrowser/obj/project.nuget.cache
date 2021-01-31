@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "tKlvb+p5FJVDwE4QTV4fpkZFhSQvK+4bavPsLDzFohXday3t6q6LzaYQSdPcX3zVanobcwrtK2d3/ovs4TEXNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SenichiKaetsu\\Desktop\\Tool\\AssetBrowser\\AssetBrowser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask\\3.2.1\\livetcask.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.behaviors\\3.2.1\\livetcask.behaviors.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.collections\\3.2.1\\livetcask.collections.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.converters\\3.2.1\\livetcask.converters.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.core\\3.2.1\\livetcask.core.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.eventlisteners\\3.2.1\\livetcask.eventlisteners.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.messaging\\3.2.1\\livetcask.messaging.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\livetcask.mvvm\\3.2.1\\livetcask.mvvm.3.2.1.nupkg.sha512",
+    "C:\\Users\\SenichiKaetsu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3\\microsoft.xaml.behaviors.wpf.1.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
